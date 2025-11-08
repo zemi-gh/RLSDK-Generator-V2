@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{648e9363-7c33-4996-9a3d-af04cd4ab306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7d231ced-cda7-4c6d-a2fb-53b16a91b865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\RLSDK">
+      <UniqueIdentifier>{8bbb2526-ea44-4940-b683-1e13dd09050d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Member.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Printer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RLSDK\Configuration.cpp">
+      <Filter>Engine\RLSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RLSDK\GameDefines.cpp">
+      <Filter>Engine\RLSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RLSDK\PiecesOfCode.cpp">
+      <Filter>Engine\RLSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScanOffsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Engine.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dllmain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Member.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Printer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Changelog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RLSDK\Configuration.hpp">
+      <Filter>Engine\RLSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RLSDK\GameDefines.hpp">
+      <Filter>Engine\RLSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RLSDK\PiecesOfCode.hpp">
+      <Filter>Engine\RLSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScanOffsets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
